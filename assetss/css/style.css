@@ -159,12 +159,15 @@ li {
     transition: 1.5s;
     border-radius: 15px;
 }
+
+
+
 .galeria-img:nth-child(1):hover{
     transform: translate(5px,5px);
 }
 
 .galeria h3 {
-    color: white;
+    color: rgb(15, 15, 15);
     text-align: center;
 }
 
@@ -242,6 +245,7 @@ li {
     padding-left: 35px;
     padding-bottom: 20px;
     font-weight: 20px;
+    align-items: center;
    
 }
 
@@ -549,6 +553,23 @@ footer{
     animation-iteration-count: infinite;*/
     
 }
+@media screen and (max-width: 996px) {
+    .tituloPrincipal{
+        animation-name: moverHorizontal;
+        animation: none;
+        
+        
+
+    }
+}
+@media screen and (max-width: 390px) {
+    .tituloPrincipal{
+        animation-name: moverHorizontal;
+        animation-duration: unset;
+        animation-iteration-count: 0;
+            
+        }
+}
 h1{
     background-color: rgb(247, 227, 9);
     font-family:'Rubik Microbe', cursive;
@@ -557,10 +578,16 @@ h1{
     
 }
 h3{
-    color: rgb(247, 227, 9);
+    color: rgb(12, 12, 12);
     font-family:'Rubik Microbe', cursive;
+    background-color: #e7dd87;
+    text-align: center;
 }
 .PregFrecCard p, .PregFrecCardh3{
+    padding: 10px;
+    color:  rgb(13, 13, 13);
+    background-color: #e7dd87;
+    font-weight: 700;
     padding: 10px;
     
 }
@@ -597,6 +624,9 @@ h3{
     border-bottom: 20px;
     border-radius: 20px;
     font-size:medium;
+    align-items: center;
+    
+    
 }
 
 .exp-button a{
@@ -608,5 +638,6 @@ h3{
     border-radius: 50px;
     font-size:large;
     text-align: center;
+    
 }
 
