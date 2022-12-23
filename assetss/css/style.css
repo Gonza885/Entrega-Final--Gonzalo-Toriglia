@@ -506,13 +506,18 @@ footer{
     align-items:center;
     background-image: url(../img/imgPrincipalOp.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     height: 1520px;
     background-attachment: fixed;
     background-size: cover;
     color: rgb(247, 227, 9);
     
-    
+    /*posibles cambios*/
+    width: 100%;
+    height: 85vh;
+    text-align: center;
+    background-position: center;
+    background-size: cover;    
 }
 
 
